@@ -27,15 +27,6 @@ a:hover, a:focus, a:active {
   color: #3da1a7;
 }
 
-a.footer {
-  color: inherit;
-  text-decoration: underline;
-}
-
-small.credits {
-  font-size: 75%;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", Arial, sans-serif;
   color: #000;
@@ -940,7 +931,7 @@ p {
   padding: 0 10px;
 }
 #fh5co-footer .fh5co-social li a i {
-  font-size: 22px;
+  font-size: 18px;
 }
 #fh5co-footer .fh5co-social li a:hover, #fh5co-footer .fh5co-social li a:focus, #fh5co-footer .fh5co-social li a:active {
   text-decoration: none;
