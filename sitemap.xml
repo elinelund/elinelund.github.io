@@ -3,6 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+<<<<<<< HEAD
     <loc>https://elinelund.github.io/posts/rethinking_education/</loc>
     <lastmod>2018-08-24T17:18:11+02:00</lastmod>
   </url>
@@ -13,6 +14,8 @@
   </url>
   
   <url>
+=======
+>>>>>>> 80808b77b768a2bd2350c5354a65ac13152fffc7
     <loc>https://elinelund.github.io/categories/</loc>
     <priority>0</priority>
   </url>
