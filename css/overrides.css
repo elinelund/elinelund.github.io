@@ -5,9 +5,10 @@
 
 h1.hero {
   font-family: 'Just Another Hand', Helvetica, sans-serif;
-  font-size: 80px;
+  font-size: 65px !important;
   color: #969595;
   text-shadow: none;
+  letter-spacing: 2px;
 }
   
 img.round-frame {
