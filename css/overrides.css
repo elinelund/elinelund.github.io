@@ -1,0 +1,188 @@
+.fh5co-copy-inner-text {
+  background-color: rgba(254, 200, 31, 0.9);
+  padding: 10px;
+}
+
+h1.hero {
+  font-family: 'Just Another Hand', Helvetica, sans-serif;
+  font-size: 80px;
+  color: #969595;
+  text-shadow: none;
+}
+  
+img.round-frame {
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.twitter-feed-div {
+    padding-top:30px;
+}
+
+.twitter-feed {
+    height:500px; 
+    overflow-x:hidden; 
+    overflow-y:scroll;
+}
+
+.posts {
+  margin: 50px 0 20px 0;
+}
+
+#fh5co-about {
+  position: relative;
+  padding: 7em 0;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-about {
+    padding: 5em 0 3em 0;
+  }
+}
+#fh5co-about .fh5co-video {
+  position: absolute;
+  top: 0;
+  width: 90px;
+  height: 90px;
+  left: 50%;
+  margin-left: -45px;
+  top: -45px;
+  text-align: center;
+}
+#fh5co-about .fh5co-video span {
+  display: block;
+  padding-top: 100px;
+  font-size: 14px;
+}
+#fh5co-about .fh5co-video a {
+  float: left;
+  width: 90px;
+  height: 90px;
+  background: #69c2c8;
+  color: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  display: table;
+  -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.19);
+  -ms-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.19);
+}
+#fh5co-about .fh5co-video a i {
+  padding-left: 10px;
+  text-align: center;
+  height: 90px;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 40px;
+  line-height: 40px;
+}
+#fh5co-about .fh5co-video a:hover {
+  background: #57D131;
+}
+#fh5co-about .fh5co-video a:hover, #fh5co-about .fh5co-video a:focus, #fh5co-about .fh5co-video a:active {
+  text-decoration: none;
+  outline: none;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+#fh5co-about .service {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 40px;
+  padding: 40px 20px 20px 20px;
+  background: #fff;
+  border: 1px solid transparent;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+#fh5co-about .service .icon {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+#fh5co-about .service .icon i {
+  font-size: 40px;
+  color: #57D131;
+}
+#fh5co-about .service h3 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #368f95;
+}
+#fh5co-about .service:hover, #fh5co-about .service:focus {
+  border: 1px solid #e6e6e6;
+  -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.09);
+  -ms-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.09);
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.09);
+}
+
+
+/*
+ * Posts and pages
+ *
+ * Each post is wrapped in `.post` and is used on default and post layouts. Each
+ * page is wrapped in `.page` and is only used on the page layout.
+ */
+
+ .page,
+ .post {
+   margin-bottom: 4em;
+ }
+ 
+ /* Blog post or page title */
+ .page-title,
+ .post-title,
+ .post-title a {
+   color: #303030;
+ }
+ .page-title,
+ .post-title {
+   margin-top: 0;
+ }
+ 
+ /* Meta data line below post title */
+ .post-date {
+   display: block;
+   margin-top: -.5rem;
+   margin-bottom: 1rem;
+   color: #9a9a9a;
+ }
+ 
+ /* Related posts */
+ .related {
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+   border-top: 1px solid #eee;
+ }
+ .related-posts {
+   padding-left: 0;
+   list-style: none;
+ }
+ .related-posts h3 {
+   margin-top: 0;
+ }
+ .related-posts li small {
+   font-size: 75%;
+   color: #999;
+ }
+ .related-posts li a:hover {
+   color: #268bd2;
+   text-decoration: none;
+ }
+ .related-posts li a:hover small {
+   color: inherit;
+ }
